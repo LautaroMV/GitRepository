@@ -1,0 +1,101 @@
+body{
+  font-family: 'Dancing Script';
+  background-color: #02010a;
+}
+
+.contenido{
+  width: 900px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+header h1{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  flex-grow: 1;
+}
+
+header nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+header nav a:visited{
+  text-decoration: none;
+}
+
+#imgCentral{
+  background-color: #82c3a6;
+  width: 100%;
+}
+
+.imgCentral{
+  width: 50%;
+  margin: 0 auto;
+}
+
+#imgSecundaria{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #d5c75f;
+  border: 1px;
+}
+
+.imgSecundarias{
+  width: 50%;
+  text-align: center;
+}
+
+#imagen1{
+  width: 80%;
+  margin: 0 auto;
+  transition: transform 1s;
+}
+
+#imagen1:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 5px #82c3a6;
+  border: 2px solid;
+}
+
+#imagen2{
+  width: 80%;
+  margin: 0 auto;
+  transition: transform 1s;
+}
+
+#imagen2:hover{
+  transform:translate(20px, -5px);
+  box-shadow: 2px 2px 5px #82c3a6;
+  border: 2px solid;
+}
+
+footer{
+
+  background-color: #C6d5c5;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex: 1 2 25%;
+}
+
+.pies{
+  width: 25%;
+  text-align: center;
+}
+
+.logo{
+  width: 10%;
+}
