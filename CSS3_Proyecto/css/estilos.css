@@ -36,14 +36,26 @@ header nav a{
   text-decoration: none;
 }
 
+img{
+  box-shadow: 2px 2px 1px 1px #02010a;
+}
 
 #imgCentral{
+  display: flex;
+  flex-direction: row;
   background-color: #82c3a6;
   width: 100%;
 }
 
 .imgCentral{
-  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#imagen{
+
   margin: 0 auto;
 }
 
@@ -58,6 +70,10 @@ header nav a{
 .imgSecundarias{
   width: 50%;
   text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
 #imagen1{
@@ -97,9 +113,76 @@ footer{
 
 .pies{
   width: 25%;
+  margin: 0 auto;
   text-align: center;
 }
 
 .logo{
   width: 10%;
+}
+
+@media (max-width:900px)
+{
+  .contenido{
+    width: 100%;
+  }
+
+  #imgSecundaria{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .imgSecundarias{
+    width: 100%;
+    text-align: center;
+  }
+
+  #imgCentral{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .imgCentral{
+    width: 100%;
+    text-align: center;
+  }
+
+  #imagen{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    flex-grow: 1;
+  }
+
+  header nav{
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex: 1 2 25%;
+  }
+
+  .pies{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
 }
