@@ -1,0 +1,48 @@
+.body-blog{
+  background: #7a1717;
+}
+.row-head{
+  background: #877d7d;
+}
+.img-logo{
+  max-width: 30%;
+}
+.img-social{
+  width: 30px;
+  height: 30px;
+}
+.col-social{
+  vertical-align: bottom;
+  text-align: right;
+  margin-top: 3%;
+}
+.navbar-nav{
+  margin-top: 1% !important;
+}
+.container{
+  border-radius: 5px;
+}
+.img-noti{
+  max-height: 250px;
+  max-width: 100%;
+}
+.noticias{
+  background: white;
+}
+.margin-top{
+  margin-top: 10px;
+}
+.nav{
+  text-align: center !important;
+}
+@media (max-width: 992px){
+  .col-buscar{
+    display: none;
+  }
+  .row-head{
+    text-align: center;
+  }
+  .col-social{
+    text-align: center;
+  }
+}
