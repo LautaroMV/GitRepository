@@ -1,0 +1,52 @@
+.body-img{
+  background: url("../img/fondo.jpg");
+}
+.row-fondo{
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+}
+.col-logo{
+  text-align: right;
+}
+.img-fav{
+  border: solid white;
+  border-radius: 2px;
+}
+.row-nav{
+  padding: 0px !important;
+}
+.card{
+  background-color: rgba(255, 206, 206, 0.9);
+  padding: 5px;
+}
+.row-com{
+  margin: 10px;
+  padding: 5px;
+  border: solid gray;
+  border-radius: 5px;
+
+}
+
+.img-user{
+  max-height: 30px;
+}
+.col-txt{
+  padding-right: 0px;
+  margin-right: 0px;
+  padding-left: 1px;
+  margin-left: 0px;
+}
+.col-btn{
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 40em) {
+  .col-logo{
+    border-style: none;
+    text-align: center;
+  }
+  .col-izq{
+    display: none;
+  }
+}
